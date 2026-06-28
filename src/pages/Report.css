@@ -1,0 +1,160 @@
+.report-page {
+  width: 100vw;
+  height: 100vh;
+  background: #2d3235;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.report-wrapper {
+  position: relative;
+  width: 390px;
+  height: 650px;
+}
+
+.report-shape {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+
+.report-content {
+  position: absolute;
+  top: 88px;
+  left: 44px;
+  right: 44px;
+  bottom: 48px;
+  z-index: 2;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: #222831;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+
+.report-content h1 {
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 22px;
+  line-height: 1.35;
+}
+
+.report-content h2 {
+  font-size: 17px;
+  margin: 20px 0 10px;
+}
+
+.report-content h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.report-content p {
+  font-size: 12px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.report-card {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 14px;
+  margin-bottom: 15px;
+}
+
+.report-card a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #1d1d1d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.report-btn {
+  display: block;
+  margin: 30px auto 10px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 15px;
+  background: #e7d395;
+  color: #222831;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.report-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.report-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.report-content::-webkit-scrollbar-thumb {
+  background: rgba(80, 80, 80, 0.45);
+  border-radius: 50px;
+}
+
+.report-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(80, 80, 80, 0.7);
+}
+/* ========================================= */
+/* Mobile Responsive */
+/* ========================================= */
+
+@media (max-width: 768px) {
+  .report-page {
+    align-items: flex-start;
+    overflow: hidden;
+    padding-top: 18px;
+    box-sizing: border-box;
+  }
+
+  .report-wrapper {
+    width: 92vw;
+    max-width: 360px;
+    height: 600px;
+  }
+
+  .report-content {
+    top: 82px;
+    left: 40px;
+    right: 40px;
+    bottom: 45px;
+    padding-right: 8px;
+  }
+
+  .report-content h1 {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+
+  .report-content h2 {
+    font-size: 16px;
+  }
+
+  .report-content h3 {
+    font-size: 13px;
+  }
+
+  .report-content p {
+    font-size: 11.5px;
+    line-height: 1.65;
+  }
+
+  .report-card {
+    padding: 12px;
+  }
+
+  .report-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 18px;
+  }
+}

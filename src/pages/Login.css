@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  background: #2d3235;
+  overflow: hidden;
+  position: relative;
+}
+
+.login-title {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 430px;
+  z-index: 5;
+}
+
+.login-character {
+  position: absolute;
+  left: 50%;
+  top: 175px;
+  transform: translateX(-50%);
+  width: 225px;
+  z-index: 2;
+}
+
+.login-character img {
+  width: 100%;
+  display: block;
+}
+
+.login-options {
+  position: absolute;
+  left: 50%;
+  top: 430px;
+  transform: translateX(-50%);
+  width: 190px;
+  z-index: 6;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.google-btn {
+  width: 100%;
+  height: 52px;
+  border: none;
+  border-radius: 17px;
+  background: #e7d395;
+  color: #222831;
+
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  cursor: pointer;
+}
+
+.google-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: white;
+  color: #4285f4;
+
+  font-size: 15px;
+  font-weight: 900;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-note {
+  width: 100%;
+  height: 48px;
+  border-radius: 16px;
+  background: #e7d395;
+  color: #222831;
+
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ========================================= */
+/* Mobile Responsive */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+  .login-title {
+    width: 300px;
+    top: 30px;
+  }
+
+  .login-character {
+    width: 180px;
+    top: 165px;
+  }
+
+  .login-options {
+    width: 175px;
+    top: 375px;
+    gap: 14px;
+  }
+
+  .google-btn {
+    height: 48px;
+    font-size: 11px;
+  }
+
+  .google-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+  }
+
+  .login-note {
+    height: 44px;
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  .login-title {
+    width: 260px;
+  }
+
+  .login-character {
+    width: 155px;
+    top: 155px;
+  }
+
+  .login-options {
+    width: 165px;
+    top: 335px;
+  }
+
+}

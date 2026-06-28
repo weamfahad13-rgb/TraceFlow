@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.interests-page {
+  width: 100vw;
+  height: 100vh;
+  background: #2d3235;
+  overflow: hidden;
+  position: relative;
+}
+
+.interests-title {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  width: 430px;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.interests-character {
+  position: absolute;
+  left: 50%;
+  top: 170px;
+  width: 255px;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.interests-character img {
+  width: 100%;
+  display: block;
+}
+
+.interests-form {
+  position: absolute;
+  left: 50%;
+  top: 398px;
+  width: 225px;
+  transform: translateX(-50%);
+  z-index: 6;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.interests-box {
+  width: 100%;
+  height: 112px;
+  border-radius: 24px;
+  background: #e7d395;
+  padding: 18px 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.interests-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+
+  color: #222831;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  text-align: center;
+
+  border-bottom: 1.5px solid rgba(34, 40, 49, 0.22);
+  padding-bottom: 7px;
+}
+
+.interests-box input::placeholder {
+  color: rgba(34, 40, 49, 0.72);
+}
+
+.interests-box p {
+  color: rgba(34, 40, 49, 0.48);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 7px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.continue-btn {
+  width: 115px;
+  height: 50px;
+  border: none;
+  border-radius: 18px;
+  background: #e7d395;
+  color: #222831;
+
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.continue-btn:hover {
+  transform: scale(1.03);
+}
+/* ========================================= */
+/* Mobile Responsive */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+  .interests-title {
+    width: 300px;
+    top: 28px;
+  }
+
+  .interests-character {
+    width: 195px;
+    top: 155px;
+  }
+
+  .interests-form {
+    width: 205px;
+    top: 345px;
+    gap: 16px;
+  }
+
+  .interests-box {
+    height: 100px;
+    padding: 16px 14px;
+  }
+
+  .interests-box input {
+    font-size: 10px;
+  }
+
+  .interests-box p {
+    font-size: 6px;
+  }
+
+  .continue-btn {
+    width: 110px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  .interests-title {
+    width: 260px;
+  }
+
+  .interests-character {
+    width: 170px;
+    top: 145px;
+  }
+
+  .interests-form {
+    width: 185px;
+    top: 315px;
+  }
+
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.language-page {
+  width: 100vw;
+  height: 100vh;
+  background: #2d3235;
+  overflow: hidden;
+  position: relative;
+}
+
+.language-title {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 430px;
+  z-index: 5;
+}
+
+.language-title img {
+  width: 100%;
+  display: block;
+}
+
+.language-character {
+  position: absolute;
+  left: 50%;
+  top: 175px;
+  transform: translateX(-50%);
+  width: 225px;
+  z-index: 2;
+}
+
+.language-character img {
+  width: 100%;
+  display: block;
+}
+
+.language-options {
+  position: absolute;
+  left: 50%;
+  top: 385px;
+  transform: translateX(-50%);
+  width: 175px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  z-index: 6;
+}
+
+.language-question,
+.language-btn {
+  width: 100%;
+  height: 48px;
+
+  border: none;
+  border-radius: 16px;
+
+  background: #e7d395;
+  color: #222831;
+
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+
+  text-align: center;
+}
+
+.language-question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.language-btn {
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.language-btn:hover {
+  transform: scale(1.03);
+}
+
+/* ========================================= */
+/* Mobile Responsive */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+  .language-title {
+    width: 300px;
+    top: 30px;
+  }
+
+  .language-character {
+    width: 180px;
+    top: 165px;
+  }
+
+  .language-options {
+    width: 165px;
+    top: 340px;
+    gap: 12px;
+  }
+
+  .language-question,
+  .language-btn {
+    height: 44px;
+  }
+
+  .language-question {
+    font-size: 12px;
+  }
+
+  .language-btn {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  .language-title {
+    width: 260px;
+  }
+
+  .language-character {
+    width: 155px;
+    top: 155px;
+  }
+
+  .language-options {
+    width: 150px;
+    top: 305px;
+  }
+
+}
