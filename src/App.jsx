@@ -258,12 +258,48 @@ function App() {
           background: "#2d3235",
           color: "white",
           display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
+          gap: "20px",
           fontFamily: "Arial",
         }}
       >
         <p>{user.email}</p>
+
+        <button
+          onClick={handleLogout}
+          style={{
+            width: "180px",
+            height: "48px",
+            border: "none",
+            borderRadius: "25px",
+            background: "#e7d395",
+            color: "#222831",
+            fontWeight: "bold",
+            fontSize: "16px",
+            cursor: "pointer",
+          }}
+        >
+          Logout
+        </button>
+
+        <button
+          onClick={handleGoToLibrary}
+          style={{
+            width: "180px",
+            height: "48px",
+            border: "none",
+            borderRadius: "25px",
+            background: "#9d93c7",
+            color: "#222831",
+            fontWeight: "bold",
+            fontSize: "16px",
+            cursor: "pointer",
+          }}
+        >
+          Library
+        </button>
       </main>
     );
   }
