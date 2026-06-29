@@ -1,0 +1,111 @@
+/* ============================= */
+/* TraceFlow Mobile Overrides */
+/* ============================= */
+
+@media (max-width: 768px) {
+  .traceflow-text,
+  .language-title,
+  .login-title,
+  .interests-title,
+  .loading-title {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 285px !important;
+    text-align: center !important;
+  }
+
+  .traceflow-text img,
+  .language-title img,
+  .login-title img,
+  .interests-title img,
+  .loading-title img {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .loading-message {
+    width: 170px !important;
+    height: 58px !important;
+    top: 405px !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+  }
+
+  .loading-message p {
+    font-size: 11px !important;
+    line-height: 1.25 !important;
+  }
+
+  .explore-wrapper {
+    width: 92vw !important;
+    max-width: 360px !important;
+    height: 560px !important;
+  }
+
+  .explore-content {
+    padding: 115px 38px 42px !important;
+  }
+
+  .explore-content h1 {
+    font-size: 18px !important;
+    padding: 14px 16px !important;
+    margin-bottom: 105px !important;
+  }
+
+  .explore-options {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .explore-topic-btn {
+    width: 100% !important;
+    min-height: 58px !important;
+    padding: 10px 14px !important;
+    font-size: 12px !important;
+    line-height: 1.25 !important;
+    border-radius: 28px !important;
+  }
+
+  .explore-back-btn {
+    margin-top: 18px !important;
+    width: 120px !important;
+    height: 42px !important;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .traceflow-text,
+  .language-title,
+  .login-title,
+  .interests-title,
+  .loading-title {
+    width: 265px !important;
+  }
+
+  .loading-message {
+    width: 155px !important;
+    height: 54px !important;
+    top: 375px !important;
+  }
+
+  .explore-wrapper {
+    width: 94vw !important;
+    height: 540px !important;
+  }
+
+  .explore-content {
+    padding: 110px 34px 40px !important;
+  }
+
+  .explore-content h1 {
+    font-size: 17px !important;
+    margin-bottom: 95px !important;
+  }
+
+  .explore-topic-btn {
+    font-size: 11.5px !important;
+    min-height: 56px !important;
+  }
+}

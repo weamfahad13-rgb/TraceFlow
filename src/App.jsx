@@ -8,7 +8,7 @@ import Interests from "./pages/Interests";
 import Loading from "./pages/Loading";
 import Report from "./pages/Report";
 import Library from "./pages/Library";
-
+import "./pages/mobile.css";
 const API_URL = "https://traceflow-backend-fhou.onrender.com";
 
 function App() {
@@ -323,4 +323,4 @@ function App() {
   return <Welcome onGetStarted={() => setPage("language")} />;
 }
 
-export default App;
+export default App
