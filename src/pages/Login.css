@@ -99,60 +99,34 @@
   align-items: center;
   justify-content: center;
 }
-/* ========================================= */
-/* Mobile Responsive */
-/* ========================================= */
+/* ========================= */
+/* Mobile */
+/* ========================= */
 
 @media (max-width: 768px) {
-
-  .login-title {
-    width: 300px;
-    top: 30px;
-  }
-
-  .login-character {
-    width: 180px;
-    top: 165px;
-  }
-
   .login-options {
-    width: 175px;
-    top: 375px;
-    gap: 14px;
+    width: 100%;
+    max-width: 170px;
+    margin: 0 auto;
   }
 
+  .login-note,
   .google-btn {
-    height: 48px;
-    font-size: 11px;
+    width: 100%;
+    box-sizing: border-box;
   }
-
-  .google-icon {
-    width: 20px;
-    height: 20px;
-    font-size: 14px;
-  }
-
-  .login-note {
-    height: 44px;
-    font-size: 12px;
-  }
-
 }
 
 @media (max-width: 430px) {
-
-  .login-title {
-    width: 260px;
-  }
-
-  .login-character {
-    width: 155px;
-    top: 155px;
-  }
-
   .login-options {
-    width: 165px;
-    top: 335px;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
   }
 
+  .login-note,
+  .google-btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
