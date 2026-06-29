@@ -252,4 +252,69 @@
   .explore-options {
     grid-template-columns: 1fr;
   }
+  /* ========================= */
+/* Mobile Library Fix */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .library-shelves {
+    width: 100%;
+    gap: 55px;
+    align-items: center;
+  }
+
+  .library-shelf-block {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .library-books-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0;
+  }
+
+  .library-book-btn {
+    width: 115px;
+    height: 170px;
+  }
+
+  .library-book {
+    width: 115px;
+    height: 170px;
+  }
+
+  .library-shelf {
+    width: 170px;
+    height: 5px;
+    margin-top: 8px;
+  }
+
+  .library-title {
+    font-size: 42px;
+    margin-bottom: 45px;
+  }
+
+  .library-btn {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 430px) {
+  .library-shelf-block {
+    width: 165px;
+  }
+
+  .library-shelf {
+    width: 165px;
+  }
+
+  .library-title {
+    font-size: 38px;
+  }
+}
 }
