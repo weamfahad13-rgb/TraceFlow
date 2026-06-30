@@ -110,63 +110,61 @@
 .continue-btn:hover {
   transform: scale(1.03);
 }
-/* ========================================= */
-/* Mobile Responsive */
-/* ========================================= */
+/* ============================= */
+/* Interests Mobile Final Fix */
+/* ============================= */
 
 @media (max-width: 768px) {
-
-  .interests-title {
-    width: 300px;
-    top: 28px;
-  }
-
   .interests-character {
-    width: 195px;
-    top: 155px;
+    width: 190px !important;
+    top: 150px !important;
   }
 
   .interests-form {
-    width: 205px;
-    top: 345px;
-    gap: 16px;
+    width: 175px !important;
+    top: 340px !important;
+    gap: 14px !important;
   }
 
   .interests-box {
-    height: 100px;
-    padding: 16px 14px;
+    width: 100% !important;
+    height: 88px !important;
+    padding: 12px 10px !important;
+    border-radius: 20px !important;
+    box-sizing: border-box !important;
   }
 
   .interests-box input {
-    font-size: 10px;
+    width: 100% !important;
+    font-size: 10px !important;
+    padding-bottom: 6px !important;
+    box-sizing: border-box !important;
   }
 
   .interests-box p {
-    font-size: 6px;
+    font-size: 6px !important;
+    line-height: 1.2 !important;
   }
 
   .continue-btn {
-    width: 110px;
-    height: 46px;
-    font-size: 14px;
+    width: 110px !important;
+    height: 44px !important;
+    font-size: 14px !important;
   }
-
 }
 
 @media (max-width: 430px) {
-
-  .interests-title {
-    width: 260px;
-  }
-
   .interests-character {
-    width: 170px;
-    top: 145px;
+    width: 170px !important;
+    top: 145px !important;
   }
 
   .interests-form {
-    width: 185px;
-    top: 315px;
+    width: 168px !important;
+    top: 315px !important;
   }
 
+  .interests-box {
+    height: 84px !important;
+  }
 }
