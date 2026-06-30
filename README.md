@@ -1,16 +1,72 @@
-# React + Vite
+# TraceFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+TraceFlow is an AI-powered research companion that helps users stay up to date with the latest developments in Artificial Intelligence.
 
-Currently, two official plugins are available:
+Users simply select their research interests, and TraceFlow automatically discovers relevant papers, news, and repositories, then generates personalized daily research reports.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- AI-powered personalized research reports
+- Daily automated report generation
+- AI topic recommendations
+- English & Arabic interface
+- Personal research library
+- Latest AI papers and news
+- Modern responsive UI
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Stack
+
+### Frontend
+- React
+- Vite
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- Supabase
+
+### AI
+- Google Gemini API
+
+### Deployment
+- Vercel
+- Render
+
+---
+
+## Workflow
+
+1. Select your preferred language.
+2. Enter your AI interests.
+3. Explore recommended research topics.
+4. Receive AI-generated reports.
+5. Save reports to your personal library.
+6. Automatically receive new reports every day based on your interests.
+
+
+---
+
+## Live Demo
+
+https://trace-flow-wine.vercel.app
+
+---
+
+## Repository
+
+https://github.com/weamfahad13-rgb/TraceFlow
+
+---
+
+## Author
+
+**Weam Alhafedhi**
+
+Artificial Intelligence Student
